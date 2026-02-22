@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../Images/background6.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+/*Navigation*/
+.navdiv {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-right: 10px;
+    display: flex;
+    z-index: 7;
+}
+
+.navdiv img {
+    position: absolute;
+    width: 8%;
+    padding-left: 40px;
+    padding-top: 2px;
+}
+
+.navdiv ul {
+    
+    margin-left: 50%;
+}
+
+.navdiv ul li {
+    margin-top: 30px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    width: 75px;
+    height: 25px;
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(9, 42, 15);
+
+}
+
+.navdiv ul li:hover {
+    text-shadow: none;
+    background-color: rgb(0, 104, 159);
+}
+
+.navdiv a {
+    text-decoration: none;
+    color: white
+}
+
+.signIn {
+    margin-top: 30px;
+    margin-right: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+    color: rgb(255, 255, 255);
+
+    width: 90px;
+    height: 30px;
+    background-image: linear-gradient(rgb(0, 153, 255),rgb(9, 89, 154));
+    border-radius: 20px;
+    border: none;
+
+    transition: 0.1s;
+}
+
+.signIn:hover {
+    text-shadow: 2px 2px 5px grey;
+    border-color: rgb(255, 213, 0);
+    background-image: linear-gradient(rgb(255, 213, 0),rgb(255, 157, 0));
+}
+
+.signUp {
+    margin-top: 30px;
+    margin-right: 40px;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+    color: rgb(255, 255, 255);
+    background: transparent;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #ffffff;
+    border-style: solid;
+
+    transition: 0.1s;
+}
+
+.signUp:hover {
+    border-color:#ffe100;
+    color:#ffe100;
+
+}
+
+.text {
+    z-index: 5;
+}
+
+.text h2{
+    left: 21%;
+    top: 31%;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 70px;
+    color: #15303d;
+    width: 880px;
+    height: 100px;
+    background-image: linear-gradient(#ffe100,#ffb700);
+    text-align: center;
+    animation-name: texth2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes texth2 {
+    0%{
+        opacity: 0.4;
+        transform: scale(0.85);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/*01.Hero*/
+.hero p {
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    font-family: 'Nunito';
+    padding-top: 220px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 20px;
+    width: 1000px;
+    height: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    top: 21%;
+    left: 14%;
+    position: absolute;
+    text-shadow: 0 0 15px rgb(0, 0, 0, 0.8);
+    z-index: -1;
+    animation-name: texth2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+
+/*02.About*/
+.about {
+    min-height: 100vh;
+    min-width: 100%;
+    padding-top: 150px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-right: 0;
+    position: relative;
+    text-align: center;
+    background-color: #121708;
+    background-position: center;
+    background-size: cover;
+}
+
+.about h1 {
+    left: 21%;
+    top: 8%;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 65px;
+    color: #ffe100;
+    width: 880px;
+    height: 100px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    font-family: 'Nunito';
+    top: 21%;
+    left: 14%;
+    position: absolute;
+    text-shadow: 0 0 15px rgb(0, 0, 0, 0.8);
+}
+
+.hor1 {
+    width: 800px;
+    height: 2px;
+    border: none;
+    position: relative;
+    left: 24%;
+    background-color:#ffe100;
+}
+
+.about h2 {
+    left: 21%;
+    top: 30%;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 65px;
+    color: #ffe100;
+    width: 880px;
+    height: 100px;
+    text-align: center;
+}
+
+.hor2 {
+    width: 800px;
+    height: 1px;
+    border: none;
+    position: absolute;
+    top: 39.5%;
+    left: 24%;
+    background-color:#ffe100;
+}
+
+.about h3 {
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    font-family: 'Nunito';
+    top: 42%;
+    left: 12.2%;
+    position: absolute;
+}
+
+.det {
+    padding-top: 22%;
+    display: inline-flex;
+    gap: 45px;
+    font-family: 'Nunito';
+}
+
+.detcard {
+    width: 260px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: linear-gradient(#ffe100,#ffb700);
+    transition: 0.3s ease-in-out;
+    display: flex;
+}
+
+.detcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #92830e;
+}
+
+.detcard h3 {
+    top: 10%;
+    position: absolute;
+    align-content: center;
+    z-index: 4;
+    color:#1d1d1d;
+    font-weight:900;
+    font-family: Impact;
+    font-size: 68px;
+}
+
+.detcard p{
+    top: 60%;
+    margin-left: -17px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-shadow: none;
+    position: absolute;
+    z-index: 1;
+    color:#1d1d1d;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+
+
+/*03.Team*/
+.team {
+    min-height: 100vh;
+    min-width: 100%;
+    padding-top: 140px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-right: 0;
+    position: relative;
+    text-align: center;
+    background-color: #617837;
+    background-position: center;
+    background-size: cover;
+}
+
+.team h1 {
+    font-family: 'Montserrat';
+    font-size: 70px;
+    color:#ffe100;
+    width: 820px;
+    height: 100px;
+    background-image: linear-gradient(#263238,#15303d);
+    /*background-image: linear-gradient(#ffe100,#ffb700);*/
+    margin-left: 25.5%;
+}
+
+.cardbar {
+    padding-top: 100px;
+    display: inline-flex;
+    gap: 20px;
+    font-family: 'Nunito';
+    text-align: center;
+}
+
+.card {
+    width: 240px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.9));
+    opacity: 1;
+}
+
+.card h3 {
+    bottom: 10%;
+    text-align: center;
+    position: absolute;
+    align-content: center;
+    z-index: 4;
+    color:#ffb700;
+    font-size: 18px;
+    padding: 5px 10px;
+    line-height: 18px;
+}
+
+.card h3 span{
+    color: white;
+    font-size: 14px;
+    background-color: #115273;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+}
+
+.card p{
+    bottom: 2.5%;
+    position: absolute;
+    align-content: center;
+    z-index: 1;
+    color:#ffffff;
+    font-size: 11px;
+    padding: 5px 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 25px;
+    transition: 0.4s ease;
+}
+
+/*05.Footer Section*/
+.footer {
+    min-height: 25vh;
+    width: 100wh;
+    padding: 40px 20px;
+    background-color:#141414;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.footer img{
+    width: 7%;
+    margin-bottom: 10px;
+    
+    left: 46.5%;
+    position: relative;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.footer select {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 100;
+    background: transparent;
+    border: none;
+}
+
+.footer select:focus {
+    outline: none;
+}
+
+.footer select option {
+    color:#15303d;
+}
+
+.social {
+    position: relative;
+    width: 18%;
+    left: 38%;
+    margin-top: -30px;
+}
+
+.footer h3 {
+    text-align: right;
+    color: rgb(139, 139, 139);
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 100;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+
+.footer span {
+    font-weight: 500;
+    color:#ffffff;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Images/LOGO.png">
+    <title>Sign in to GoWander</title>
+    <link rel="stylesheet" href="../CSS/signincss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="signin">
+        <a href="../index.html"><img src="../Images/LOGO.png" alt="Logo" ></a>
+        <br>
+        <form action="post">
+            <h1>Sign in</h1>
+            <br>
+            <label for="email">Email or Username</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="Enter your password" minlength="8" required >
+            <br>
+            <a href="">Forgot Password?</a>
+            <br><br>
+            <button>Sign in</button>
+            <br><br>
+            <p>or continue with</p>
+            <br>
+            <div class="links">
+                <ul class="image">
+                    <a href="https://myaccount.google.com/"><li><img src="../Images/google.png" alt="google"></li></a>
+                    <a href="https://github.com/login"><li><img src="../Images/github.png" alt="github"></li></a>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr#"><li><img src="../Images/fb.png" alt="facebook"></li></a>
+                </ul>
+            </div>
+            <div class="bord"></div>
+            <br><br>
+            <p>Don't have an account yet? <a href="../HTML/signup.html"><strong>Sign Up</strong></a> now!</p>
+        </form>
+    </div>
+</body>
+</html>
