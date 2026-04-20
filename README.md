@@ -1,4 +1,4 @@
-##🌍 GoWander
+## 🌍 GoWander
 
 GoWander is a simple travel-inspired website built using **HTML and CSS** as part of my journey into frontend development.
 
