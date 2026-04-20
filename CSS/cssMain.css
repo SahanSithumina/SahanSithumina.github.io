@@ -13,7 +13,7 @@ html {
 }
 
 @font-face {
-    font-family: "Bye Man FREE", "Bakery Home Free Trial";
+    font-family: "mainFont", "otherFont";
     src: url("../Fonts/Bye\ Man\ FREE.otf"), url("../Fonts/Bakery\ Home\ Free\ Trial.otf")
 }
 
@@ -251,7 +251,7 @@ body{
     left: 43%;
     top: 18%;
     position: absolute;
-    font-family: "Bakery Home Free Trial";
+    font-family: "otherFont";
     font-size: 55px;
     color: white;
     text-shadow: 1px 2px 10px #509acb;
@@ -278,7 +278,7 @@ body{
     left: 26.5%;
     top: 28%;
     position: absolute;
-    font-family: "Bye Man FREE";
+    font-family: "mainFont";
     font-size: 170px;
     /*background: linear-gradient(#fff600, #ffa600);
     -webkit-background-clip: text;
