@@ -6,9 +6,8 @@ This project represents my first step into web development, where I practiced st
 
 ---
 
-## 🚀 Live Demo
-*(Add your GitHub Pages or hosted link here if available)*  
-👉 https://your-live-demo-link.com
+## 🚀 Live Demo 
+👉 [https://your-live-demo-link.com](https://sahansithumina.github.io/)
 
 ---
 
@@ -20,7 +19,7 @@ This project represents my first step into web development, where I practiced st
 
 ## 🛠️ Built With
 - HTML5  
-- CSS3  
+- CSS
 
 ---
 
@@ -62,7 +61,7 @@ This project is part of my learning journey as a Computer Science student explor
 ---
 
 ## 👨‍💻 Author
-**Sahan Sithumina**  
+**M.Sahan Sithumina**  
 Computer Science Student  
 Aspiring Software Engineer | Frontend Developer | UI/UX Enthusiast  
 
